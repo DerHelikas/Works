@@ -1,0 +1,154 @@
+body{
+    margin: 0 0;
+    background-color:  	#1e2124;
+}
+
+
+.MainContain{
+    height: 200vh;
+    width: 90vw;
+
+    margin: 0 auto;
+    
+}
+
+header{
+    width: 80vw;
+    height: 60px;
+    background-color: #282b30;
+
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+.header-Text{
+    color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+    padding: 18px  0 0 10px;
+}
+
+.header-Text ul
+{
+    display: inline-block;
+    margin: 0 0 0 50vw;
+}
+
+.header-Text li{
+    
+    display:inline-block;
+    margin: 0 10px;
+}
+
+#Logo{
+    font-weight: bold;
+    color: #00A;
+
+    padding: 0 0 0 60px;
+}
+
+aside{
+    float: left;
+}
+.aside-Block{
+    background-color: #282b30;
+    padding: 10px;
+
+    width: 200px;
+    height: 250px;
+
+    margin: 10px 0;
+
+    border-radius: 10px;
+        
+}
+
+.aside-img{
+    height: 100%;
+    width: 100%;
+
+    background-color: #424549;
+    border-radius: 5px;
+
+    border-radius: 10px;
+}
+
+.aside-Block ul{
+    margin: 0 0 0 10px;   
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.aside-Block li{
+    display: inline;
+
+    color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+    margin: 15px 0;
+}
+
+.CardHolder{
+    margin: 10px 10px;
+    float: left;
+}
+
+.Card{
+    height: 350px;
+    width: 1300px;
+
+    background-color: #282b30;
+    
+    margin: 10px 10px;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Card-Img-full{
+    width: 300px;
+    height: 100%;
+    
+    background-color: #424549;
+
+    float: left;
+
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.Card-Img-Littlefull{
+    width: 200px;
+    height: 100px;
+    
+    background-color: #424549;
+
+    float: left;
+
+    margin: 0 0 0 80px;
+
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Card p {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.BlockArray{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+footer{
+    clear: both;
+}
