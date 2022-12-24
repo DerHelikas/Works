@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.Centered{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 0 20px 0 90px;
+}
+
+.Centered li{
+    margin: 0 10px;
+}
+
+
+
+
+
+
+.carousel-inner{
+    height: 600px;
+}
+
+.HolderOfTwo{
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-between;
+
+    margin: 50px 0 0 0;
+}
+
+.TwoButtonsText{
+    
+    border: 2px dashed #000;
+    padding: 10px;
+}
+
+.TwoButtonsText{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+
+.ButtonwRow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.TwoButtonsText h1,.TwoButtonsText p{
+    display: flex;
+    align-self: center;
+}
+
+.MoreButtonsText{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;   
+    border: 2px dashed #000;
+    padding: 10px;
+}
+
+
+.textAreaControll{
+    resize: none;
+
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.BtnSet{
+    margin: 20px 0 0 0;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+.BigBoddy{
+    margin: 100px 0 0 0;
+    border: 1px dashed #000;
+
+    padding: 10px;
+}
+
+.breadcrumb a{
+    text-decoration: underline;
+    color: #000;
+}
+
+.BigBoddy-Content{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.olStyle{
+    font-weight: bold;
+
+    font-size: 20px;
+}
+
+.BigBoddy .ListColumn{ 
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 20px 0 0;
+
+    height: 415px;
+}
+
+
+.BigBoddy-Content{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.BigBoddy-Content p{
+    width: 80%
+}
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+
+
+    margin:50px 0 0 0;
+}
+
+.ClearedColumn, .ClearedColumn li{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.LogoHolder , .LogoHolder li{
+    width: 280px;
+
+    margin: 5px 0;
+}
+
+.buttonControll{
+    width: 100px;
+}
+
+.Logo{
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: flex-start;
+}
+
+.Logo img{
+    height: 50px;
+    width: 50px;
+    margin: 0 10px 0 0;
+}
+
+.RowInput{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.RowInput .Mbtn{
+    margin: 0 0 0 10px;
+}
